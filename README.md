@@ -1,4 +1,4 @@
-#SQL Practice – Club Database Queries
+##SQL Practice – Club Database Queries
 
 This document contains a collection of beginner to intermediate-level SQL queries written to solve various data retrieval tasks on a sample `cd` (Club Database) schema. 
 These queries are helpful for those looking to improve their SQL skills, especially with real-world style questions.
