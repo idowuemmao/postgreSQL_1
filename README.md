@@ -1,7 +1,5 @@
-**SQL Practice – Club Database Queries**
-
-This document contains a collection of beginner to intermediate-level SQL queries written to solve various data retrieval tasks on a sample `cd` (Club Database) schema. 
-These queries are helpful for those looking to improve their SQL skills, especially with real-world style questions.
+SQL Practice – Club Database Queries
+This document contains a collection of beginner to intermediate-level SQL queries written to solve various data retrieval tasks on a sample `cd` (Club Database) schema. These queries are helpful for those looking to improve their SQL skills, especially with real-world style questions.
 ---
 1. Retrieve all the information from the cd.facilities table
 SELECT * FROM cd.facilities;
@@ -66,4 +64,3 @@ LEFT JOIN cd.members
 ON cd.members.memid = cd.bookings.memid
 WHERE surname = 'Farrell' 
 AND firstname = 'David';
-
